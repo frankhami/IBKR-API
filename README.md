@@ -1,5 +1,4 @@
-# ibkrAPI
-
+# IBKR-API
 This Python script fetches daily Open, High, Low, and Close (OHLC) data for every symbol listed on the NASDAQ and other exchanges using the Interactive Brokers API (ibkrAPI). The script is optimized to efficiently manage multiple concurrent requests by leveraging threading, semaphores, and a custom await mechanism, ensuring that each request is accurately tracked and matched with its corresponding sent reqID.
 
 ## Features
